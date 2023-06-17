@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ABP"
+            android:icon="@drawable/abp1"
+            android:title="@string/ABP"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_indiatv"
+            android:icon="@drawable/indiatv1"
+            android:title="@string/IndiaTV"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_ndtv"
+            android:icon="@drawable/ndtv1"
+            android:title="@string/NDTV"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_nn"
+            android:icon="@drawable/nn1"
+            android:title="@string/NewsNation"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_zeenews"
+            android:icon="@drawable/zee1"
+            android:title="@string/ZeeNews"
+            android:menuCategory="secondary"/>
+    </group>
+    <item
+        android:title="UpComing">
+        <menu>
+            <item
+                android:id="@+id/aajTak"
+                android:icon="@drawable/aajtak1"
+                android:title="@string/AajTak"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+</menu>
